@@ -25,7 +25,7 @@ origin of the image plane.
 To generate a 201*201 hologram with pixel size 0.2um, and a silica sphere
 (n=1.456, radius=1) located at 30um above the focal plane in water:
 
-```
+```matlab
 np = 1.456;
 ns = 1.33;
 wavelen = 0.66;
@@ -55,8 +55,8 @@ then pass hologram and parameters to the function.
 See `example/fit_holo.m`
 
 ##References
-Lee. Characterizing and tracking single colloidal particles with video holographic microscopy Opt. Express, OSA, 2007.
-Bohren & Huffman. Absorption and Scattering by a Sphere Absorption and Scattering of Light by Small Particles.
+1. Lee. Characterizing and tracking single colloidal particles with video holographic microscopy Opt. Express, OSA, 2007.
+2. Bohren & Huffman. Absorption and Scattering by a Sphere Absorption and Scattering of Light by Small Particles.
 
 ##License
 This code is licensed under GNU GPL V2 license.
