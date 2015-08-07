@@ -1,4 +1,4 @@
-#MieHolo: A collection of codes to play with single sphere holograms
+#MieHolo
 
 MieHolo offers some matlab functions to generate and fit holograms
 that produced by a single sphere under plane incident light.
