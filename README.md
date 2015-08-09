@@ -3,8 +3,19 @@
 MieHolo offers some matlab functions to generate and fit holograms
 that produced by a single sphere under plane incident light.
 
+##System Requirements
+
+* Matlab R2013b or newer, earlier versions should also work but not tested.
+* Optimization Toolbox.
+* Image Processing Toolbox. 
+
+Image Pocessing Toolbox dependency may be removed by replacing `fspecial`
+function in `radialcenter.m` with a predefined image filter. And replace
+`imshow` function in example `gen_holo.m` with `image` function.
+
+
 ##Usage
-First add root folder and `mie/` to matlab path.
+First add `fit/` and `mie/` folder to your matlab path.
 
 Typically there are 3 functions to be used:
 

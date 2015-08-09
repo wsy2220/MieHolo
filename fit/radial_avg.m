@@ -1,6 +1,7 @@
 function [avg,count,r_range] = radial_avg(im, center_v, center_h, th_num)
 %[avg,count] = radial_avg(im, center_v, center_h, th_num)
 %calculate radial average over theta
+%th_num is the number of points on each ring
 %all units are pixel
 %
 %written by Shuyu Wei
