@@ -1,9 +1,9 @@
-#MieHolo
+# MieHolo
 
 MieHolo offers some matlab functions to generate and fit holograms
 that produced by a single sphere under plane incident light.
 
-##System Requirements
+## System Requirements
 
 * Matlab R2013b or newer, earlier versions should also work but not tested.
 * Optimization Toolbox.
@@ -14,7 +14,7 @@ function in `radialcenter.m` with a predefined image filter. And replace
 `imshow` function in example `gen_holo.m` with `image` function.
 
 
-##Usage
+## Usage
 First add `fit/` and `mie/` folder to your matlab path.
 
 Typically there are 3 functions to be used:
@@ -25,7 +25,7 @@ Typically there are 3 functions to be used:
 
 Example codes can be found  in `example/` folder.
 
-###Generate holograms
+### Generate holograms
 
 `mie_holo` is used to generate holograms.
 You should first generate a meshgrid to define a image plane. 
@@ -54,7 +54,7 @@ imshow(holo,[]);
 You can pass additional parameters to `mie_holo` to change incident light
 properties, see `mie/mie_holo.m` for more details.
 
-###Fit holograms
+### Fit holograms
 
 'fit1d' and 'fit2d' are used to fit experimental holograms to mie solutions
 to extract characteristics of a sphere.
@@ -65,9 +65,9 @@ then pass hologram and parameters to the function.
 
 See `example/fit_holo.m`
 
-##References
+## References
 1. Lee. Characterizing and tracking single colloidal particles with video holographic microscopy Opt. Express, OSA, 2007.
 2. Bohren & Huffman. Absorption and Scattering by a Sphere Absorption and Scattering of Light by Small Particles.
 
-##License
+## License
 This code is licensed under GNU GPL V2 license.
